@@ -1,5 +1,6 @@
 // Factory function (Função fábrica)
 // Constructor function (Função construtora)
+// Esse tipo de função serve como molde para criar objetos
 function criaPessoa(nome, sobrenome, a, p) {
   return {
     nome,
