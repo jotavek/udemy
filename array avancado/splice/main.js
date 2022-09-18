@@ -12,3 +12,9 @@ console.log(nomes);
 //const removidos = nomes.splice(0, 1);
 
 //push (adiciona no ultimo elemento)
+
+//join The join() method returns an array as a string.
+
+//The join() method does not change the original array.
+
+//Any separator can be specified. The default is comma (,).
