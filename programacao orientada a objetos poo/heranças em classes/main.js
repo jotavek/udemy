@@ -24,7 +24,7 @@ class DispositivoEletronico {
 
 class Smartphone extends DispositivoEletronico {    // Smartphone está herdando do Dispositivo Eletronico
     constructor(nome, cor, modelo) {
-        super(nome); // Esse super chama o construtor da classe pai e executar ele dentro dessa nova classe.
+        super(nome); // Esse super chama o construtor da classe pai e executa ele dentro dessa nova classe.
         this.cor = cor;
         this.modelo = modelo;
     }
