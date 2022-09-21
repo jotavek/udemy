@@ -1,5 +1,6 @@
 /* A API Fetch fornece uma interface JavaScript para acessar e manipular partes do pipeline HTTP, tais como os pedidos e respostas. */
 
+// Fetch sempre retorna uma promise
 
 document.addEventListener('click', e => {
   const el = e.target;
