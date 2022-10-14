@@ -6,6 +6,8 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import { About } from './components/About'
 import { Menu } from './components/Menu'
 import { Posts } from './components/Post'
+import { Redirect } from './components/Redirect'
+import { NotFound } from './components/NotFound'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
@@ -16,6 +18,8 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
         <Route path="/about" element={<About/>}></Route>
         <Route path="/posts/:id" element={<Posts/>}></Route>
         <Route path="/posts" element={<Posts/>}></Route>
+        <Route path="/redirect" element={<Redirect/>}></Route>
+        <Route path="*" element={<NotFound/>}></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
