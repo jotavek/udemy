@@ -3,7 +3,7 @@ const nomes = ['Maria', 'João', 'Eduardo', 'Gabriel', 'Júlia'];
 nomes.splice(2,0,'Pedro','Alan');
 console.log(nomes);
 
-// nomes.splice(indice atual, delete (quantidade), elem1, elem2, elem3);
+//nomes.splice(indice atual, delete (quantidade), elem1, elem2, elem3);
 
 //pop (exclui o ultimo elemento)
 //const removidos = nomes.splice(-1, 1);
