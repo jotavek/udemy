@@ -1,7 +1,7 @@
 // Reduz o array pra um elemento só.
 // Estrutura do reduce:
 //    Array.reduce(function(acumulador, valor, indice, array)) {
-//         console.log(acumulador)
+//      console.log(acumulador)
 //    }, 0); A diferença para o map e filter é que ele recebe um acumulador e no final o valor do acumulador é exibido após o corpo da função
 //Retorne a soma do dobro de todos os pares
 // -> Filtrar pares
