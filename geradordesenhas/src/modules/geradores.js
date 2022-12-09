@@ -16,5 +16,6 @@ export default function geraSenha(qtd, maiusculas, minusculas, numeros, simbolos
     simbolos && senhaArray.push(geraSimbolo());
   }
 
+  
   return senhaArray.join('').slice(0, qtd);
 }
